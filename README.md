@@ -32,26 +32,6 @@ A centralized AI-powered health record platform using QR codes and ML/DL models 
 
 ---
 
- 📁 Folder Structure
-
-
-smart-health-ai-system/
-├── qr_module/                #Generate & scan QR code linked to patient ID
-├── patient_interface/        #View health history, upload symptoms/images
-├── doctor_portal/            #Input diagnosis, prescriptions, symptoms
-├── ml_models/                #AI/ML models (BERT, CNN, DNN)
-│   ├── disease_predictor_bert.pt
-│   ├── cnn_skin_model.h5
-│   └── diabetes_risk_dnn.pkl
-├── chatbot/                  #Medical assistant chatbot (optional)
-├── analytics_dashboard/      #Government dashboard with disease stats
-├── api/                      #Backend APIs for frontend integration
-└── README.md
-
-
-
----
-
  📊 Government Dashboard Features
 
 - View disease trends by city/district/state  
